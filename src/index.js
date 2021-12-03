@@ -2,5 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import CommentList from "./ConstantData/CommentList";
+import Mock from "./ErrorHandlingWithConditionalRendering/Mock";
 
-ReactDOM.render(<CommentList />, document.getElementById("root"));
+ReactDOM.render(<Mock />, document.getElementById("root"));
