@@ -1,4 +1,4 @@
 # study-react
 
-[] mock data 활용
-[] error handling
+- [x] mock data 활용
+- [x] error handling
