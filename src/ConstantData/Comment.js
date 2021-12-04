@@ -1,6 +1,7 @@
 // 예제에는 Comment.js 컴포넌트가 없어서 신규로 생성
 
 import React from "react";
+import "./Comment.scss";
 
 // function Comment(props) {
 //   return (
@@ -14,17 +15,20 @@ import React from "react";
 // }
 
 function Comment(props) {
+  console.log(props);
   return (
     <div className="Comment">
-      <span>Name : </span>
-      <span>{props.name}</span>
-      <p></p>
-      <span>ID : </span>
-      <span>{props.id}</span>
-      <p></p>
-      <span>Comment : </span>
-      <span>{props.comment}</span>
-      <p></p>
+      <div className="list">
+        <span>Name : </span>
+        <span>{props.name}</span>
+        <p></p>
+        <span>ID : </span>
+        <span>{props.id}</span>
+        <p></p>
+        <span>Comment : </span>
+        <span>{props.comment}</span>
+        <p></p>
+      </div>
     </div>
   );
 }

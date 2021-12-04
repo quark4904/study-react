@@ -1,6 +1,7 @@
 import React from "react";
 import Comment from "./Comment";
 import CommentData from "./CommentData";
+import "./CommentList.scss";
 
 // function CommentList() {
 //   return (
@@ -32,7 +33,6 @@ function CommentList() {
           );
         })}
       </ul>
-      np
     </div>
   );
 }
